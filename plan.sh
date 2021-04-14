@@ -7,7 +7,7 @@ pkg_upstream_url="https://rsync.samba.org/"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_source=https://download.samba.org/pub/${pkg_name}/src/${pkg_name}-${pkg_version}.tar.gz
 pkg_shasum=becc3c504ceea499f4167a260040ccf4d9f2ef9499ad5683c179a697146ce50e
-pkg_deps=(core/glibc core/perl core/acl core/attr)
+pkg_deps=(core/glibc core/perl core/acl core/attr core/openssl core/xxhash core/zstd core/lz4)
 pkg_build_deps=(core/make core/gcc core/perl core/diffutils)
 pkg_bin_dirs=(bin)
 
